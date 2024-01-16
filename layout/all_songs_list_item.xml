@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:id="@+id/content_layout"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/library_song_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceLarge"
+            android:text="Title" />
+
+        <TextView
+            android:id="@+id/library_artist_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="Subtitle" />
+        <TextView
+            android:id="@+id/library_song_view_num_of_plays"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Number of plays: "
+            android:textSize="18dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@id/content_layout"
+            android:layout_alignBottom="@id/content_layout" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
